@@ -282,7 +282,7 @@ Where
   country != ''
 Order by country;
 ```
-**Weakness:** I think needs to separate each country to get each individual country.
+**Weakness:** I think need to separate each country to get each individual country.
 
 **Objective:** Use window functions to extract the single latest movie released for every distinct country.
 
