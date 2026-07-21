@@ -1,0 +1,6 @@
+
+*.sql linguist-language=SQL
+
+
+*.csv linguist-detectable=false
+*.json linguist-detectable=false
