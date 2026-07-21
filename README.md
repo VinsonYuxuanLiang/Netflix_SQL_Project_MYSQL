@@ -102,6 +102,7 @@ Order by 2 DESC
 Limit 5;
 ```
 **Weakness:** I should spared every country, not a group of countries be one object.
+
 **Objective:** Identify the top 5 countries with the highest number of content items.
 
 ### 5. What are the titles of all movies directed by 'Kirsten Johnson'?
@@ -134,6 +135,7 @@ Where
   CAST(substring_index(duration, ' ', 1) as unsigned) >= 5;
 ```
 **Weakness:** For this case, I think using the whole string to compare is not enought.
+
 **Objective:** Find out 'TV Shows' having longer than 5 seasons.
 
 ### 7. List all the movies produced in 'India' that belong to the 'Comedies' category.
@@ -281,6 +283,7 @@ Where
 Order by country;
 ```
 **Weakness:** I think needs to separate each country to get each individual country.
+
 **Objective:** Use window functions to extract the single latest movie released for every distinct country.
 
 ### 15. Identify the release years in which more than 50 movies from India were released.
